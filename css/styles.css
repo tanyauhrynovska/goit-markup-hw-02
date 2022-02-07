@@ -69,6 +69,7 @@ line-height: 1.63;
 text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
+cursor: pointer;
 }    
 
 .navigation-button:hover,
@@ -160,6 +161,7 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 background-color: #2196F3;
+cursor: pointer;
 }
 
 .advantages-list {
