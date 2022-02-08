@@ -1,15 +1,20 @@
 :root {
-    --main-font-family: "Roboto", sans-serif;
+    --prymary-font-family: "Roboto", sans-serif;
     --secondary-font-family: "Raleway", sans-serif;
     --primary-font-color: #757575;
     --secondary-font-color: #FFFFFF;
     --accent-color: #212121;
     --background-color: #2F303A;
-    --acccent-color:  #2196F3;
+    --acccent-color: #2196F3;
+}
+
+body {
+    font-family: var(--prymary-font-family);
+    color: var(--primary-font-color);
 }
 
 .list {
-        list-style: none;
+    list-style: none;
 }
 
 .link {
@@ -17,16 +22,16 @@
 }
 
 .logo {
-font-family: var(--main-font-family);
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--acccent-color);
+    font-family: var(--secondary-font-family);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--acccent-color);
 }
 
 .colortext {
-    color: black;
+    color: #212121;
 }
 
 .nav-list-link {
@@ -43,7 +48,6 @@ color: var(--acccent-color);
     }
 
 .contacts-mail {
-    font-family: var(--main-font-family);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -52,7 +56,6 @@ color: var(--acccent-color);
     }
     
 .contact-phone {
-    font-family: var(--main-font-familymain-font-family);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -71,14 +74,13 @@ color: var(--acccent-color);
     }
 
 .navigation-button {
-font-family: var(--main-font-family);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-font-color);
-cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-font-color);
+    cursor: pointer;
 }    
 
 .navigation-button:hover,
@@ -88,25 +90,99 @@ cursor: pointer;
 
 .navigation-button:hover,
 .navigation-button:focus {
-color: var(--secondary-font-color);
+    color: var(--secondary-font-color);
 }
 
 .img-description {
-font-family: var(--main-font-family);
-font-weight: bold;
-font-size: 18px;
-line-height: 2.00;
-letter-spacing: 0.06em;
-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--accent-color);
 }
 
 .undertitle {
-font-family: var(--main-font-family);
-font-weight: normal;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
-color: var(--primary-font-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-font-color);
+}
+
+.main-header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.33;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-font-color);
+}
+
+.hero-section {
+    background-color: var(--background-color)
+}
+
+.modal-buttom {
+    font-family: var(--main-font-family);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--secondary-font-color);
+    background-color: var(--acccent-color);
+    cursor: pointer;
+}
+
+.advantages-list {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+
+.advantages-desc {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2.00;
+    letter-spacing: 0.03em;
+    color: var(--primary-font-color);
+}
+
+.our-employee {
+    background-color: #F5F4FA;
+}
+
+.sub-header {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.employee-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.profession-list {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-font-color);
 }
 
 .colortext-footer {
@@ -114,25 +190,22 @@ color: var(--primary-font-color);
 }
 
 .footer-location {
-font-family: var(--main-font-family);
-font-weight: normal;
-font-size: 14px;
-line-height: 2.00;
-letter-spacing: 0.03em;
-color: var(--secondary-font-color);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2.00;
+    letter-spacing: 0.03em;
+    color: var(--secondary-font-color);
 } 
 
 .footer-mail {
-font-family: var(--main-font-family);
-font-weight: normal;
-font-size: 14px;
-line-height: 2.00;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2.00;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-phone {
-    font-family: var(--main-font-family);
     font-weight: normal;
     font-size: 14px;
     line-height: 2.00;
@@ -142,86 +215,4 @@ color: rgba(255, 255, 255, 0.6);
 
 .footer {
     background-color: var(--background-color);
-}
-
-.main-header {
-font-family: var(--main-font-family);
-font-weight: 900;
-font-size: 44px;
-line-height: 1.33;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: var(--secondary-font-color);
-}
-
-.hero-section {
-    background-color: var(--background-color)
-}
-
-.modal-buttom {
-font-family: var(--main-font-family);
-font-weight: bold;
-font-size: 16px;
-line-height: 1.88;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: var(--secondary-font-color);
-background-color: var(--acccent-color);
-cursor: pointer;
-}
-
-.advantages-list {
-font-family: var(--main-font-family);
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--accent-color);
-}
-
-.advantages-desc {
-font-family: var(--main-font-family);
-font-weight: normal;
-font-size: 14px;
-line-height: 2.00;
-letter-spacing: 0.03em;
-color: var(--primary-font-color);
-}
-
-.our-employee {
-background-color: #F5F4FA;
-}
-
-.sub-header {
-font-family: var(--main-font-family);
-font-weight: bold;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--accent-color);
-}
-
-.employee-list {
-font-family: var(--main-font-family);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--accent-color);
-}
-
-.profession-list {
-font-family: var(--main-font-family);
-font-weight: normal;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-font-color);
 }
