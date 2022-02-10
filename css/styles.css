@@ -83,7 +83,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--accent-color);
     cursor: pointer;
-    background-color: var(---batton-backgraund-color);
+    background: var(--batton-backgraund-color);
 }    
 
 .navigation-button:hover,
@@ -136,7 +136,6 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--secondary-font-color);
-    background-color: var(--acccent-color);
     cursor: pointer;
 }
 
@@ -193,6 +192,7 @@ body {
 }
 
 .footer-location {
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -200,7 +200,10 @@ body {
     color: var(--secondary-font-color);
 } 
 
+
+
 .footer-mail {
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -209,6 +212,7 @@ body {
 }
 
 .footer-phone {
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
