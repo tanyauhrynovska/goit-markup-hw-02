@@ -137,6 +137,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--secondary-font-color);
     cursor: pointer;
+    background-color: var(--acccent-color);
 }
 
 .advantages-list {
