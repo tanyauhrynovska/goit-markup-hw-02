@@ -3,6 +3,7 @@
     --secondary-font-family: "Raleway", sans-serif;
     --primary-font-color: #757575;
     --secondary-font-color: #FFFFFF;
+    --batton-backgraund-color: #F5F4FA;
     --accent-color: #212121;
     --background-color: #2F303A;
     --acccent-color: #2196F3;
@@ -74,13 +75,15 @@ body {
     }
 
 .navigation-button {
+    font-family: var(--prymary-font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-font-color);
+    color: var(--accent-color);
     cursor: pointer;
+    background-color: var(---batton-backgraund-color);
 }    
 
 .navigation-button:hover,
@@ -96,7 +99,7 @@ body {
 .img-description {
     font-weight: bold;
     font-size: 18px;
-    line-height: 2.00;
+    line-height: 1.71;
     letter-spacing: 0.06em;
     color: var(--accent-color);
 }
@@ -149,7 +152,7 @@ body {
 .advantages-desc {
     font-weight: normal;
     font-size: 14px;
-    line-height: 2.00;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-font-color);
 }
@@ -192,7 +195,7 @@ body {
 .footer-location {
     font-weight: normal;
     font-size: 14px;
-    line-height: 2.00;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-font-color);
 } 
@@ -200,7 +203,7 @@ body {
 .footer-mail {
     font-weight: normal;
     font-size: 14px;
-    line-height: 2.00;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -208,7 +211,7 @@ body {
 .footer-phone {
     font-weight: normal;
     font-size: 14px;
-    line-height: 2.00;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     }
