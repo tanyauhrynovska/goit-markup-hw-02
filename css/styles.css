@@ -12,6 +12,8 @@
 body {
     font-family: var(--prymary-font-family);
     color: var(--primary-font-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 .list {
@@ -32,12 +34,11 @@ body {
 }
 
 .colortext {
-    color: #212121;
+    color: var(--acccent-color)
 }
 
 .nav-list-link {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--accent-color);
@@ -48,29 +49,15 @@ body {
     color: var(--acccent-color);
     }
 
-.contacts-mail {
+.contact {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-font-color);
     }
-    
-.contact-phone {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--primary-font-color);
-}
 
-.contacts-mail:hover,
-.contacts-mail:focus {
-    color: var(--acccent-color);
-    }
-
-.contact-phone:hover,
-.contact-phone:focus {
+.contact:hover,
+.contact:focus {
     color: var(--acccent-color);
     }
 
@@ -105,7 +92,6 @@ body {
 }
 
 .undertitle {
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -142,7 +128,6 @@ body {
 
 .advantages-list {
     font-weight: bold;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -150,8 +135,6 @@ body {
 }
 
 .advantages-desc {
-    font-weight: normal;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-font-color);
@@ -180,7 +163,6 @@ body {
 }
 
 .profession-list {
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -194,8 +176,6 @@ body {
 
 .footer-location {
     font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-font-color);
@@ -205,8 +185,6 @@ body {
 
 .footer-mail {
     font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -214,8 +192,6 @@ body {
 
 .footer-phone {
     font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -223,4 +199,8 @@ body {
 
 .footer {
     background-color: var(--background-color);
+}
+
+.footer-contact  {
+    list-style: none;
 }
