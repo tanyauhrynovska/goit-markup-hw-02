@@ -34,13 +34,6 @@ body {
 }
 
 .colortext {
-<<<<<<< HEAD
-    color: var(--secondary-font-color)
-}
-
-.current {
-=======
->>>>>>> cc9ca09214ed29423a7fe1f0542d82221418fc70
     color: var(--acccent-color)
 }
 
